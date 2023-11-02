@@ -81,7 +81,7 @@ header nav .mobile {
 }
 header .content {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   color: rgb(255, 255, 255);
   align-items: center;
   justify-content: space-around;
