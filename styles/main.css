@@ -34,8 +34,8 @@ header nav li {
   list-style-type: none;
   color: #2d2d2d;
   display: inline-block;
-  padding: 40px;
-  font-size: 30px;
+  padding: 30px;
+  font-size: 20px;
   cursor: pointer;
 }
 header nav .mobile {
@@ -81,10 +81,10 @@ header nav .mobile {
 }
 header .content {
   display: flex;
+  flex-direction: row;
   color: rgb(255, 255, 255);
   align-items: center;
   justify-content: space-around;
-  padding: 40px;
   margin-top: 40PX;
 }
 header .content h1 {
@@ -129,7 +129,7 @@ header .content img {
     color: aliceblue;
   }
   header .content img {
-    height: 500px;
+    height: 250px;
     border-radius: 50%;
   }
 }
@@ -164,11 +164,11 @@ header .content img {
 header footer {
   display: flex;
   justify-content: center;
-  margin-top: 60PX;
+  margin-top: 80PX;
 }
 header footer h6 {
   color: white;
-  font-size: 30px;
+  font-size: 40px;
   text-transform: capitalize;
 }
 header footer div {
@@ -176,12 +176,12 @@ header footer div {
   display: flex;
   align-items: center;
   justify-items: space-between;
-  gap: 40px;
+  gap: 80px;
 }
 header footer div img {
-  height: 100px;
+  height: 70px;
   border: 2px solid wheat;
-  padding: 20px;
+  padding: 10px;
 }
 
 @media screen and (max-width: 1000px) {

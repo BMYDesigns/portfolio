@@ -1,12 +1,13 @@
 header{
     footer{
         display: flex;
-        justify-content: center;
-        margin-top: 60PX;
+              justify-content: center;
+        
+        margin-top: 80PX;
         
         h6{
             color: white;
-            font-size: 30px;
+            font-size: 40px;
             text-transform: capitalize;
             
         }
@@ -15,11 +16,11 @@ header{
             display: flex;
             align-items: center;
             justify-items: space-between;
-            gap: 40px;
+            gap: 80px;
             img{
-                height: 100px;
+                height: 70px;
                 border: 2px solid wheat;
-                padding: 20px;
+                padding: 10px;
               
             }
         }

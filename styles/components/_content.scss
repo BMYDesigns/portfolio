@@ -1,11 +1,12 @@
 header{
     .content{
         display: flex;
+        flex-direction: row;
         
         color: rgb(255, 255, 255);
         align-items: center;
         justify-content: space-around;
-        padding: 40px;
+        // padding: 30px;
         margin-top: 40PX;
        
         h1{
@@ -55,7 +56,7 @@ header{
                 color: aliceblue;
             }
             img{
-                height: 500px;
+                height: 250px;
                 border-radius:50%;
             }
         }
