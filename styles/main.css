@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(46, 46, 46);
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+  width: 100%;
+  align-items: center;
+  background-color: rgb(167, 167, 167);
+}
+header nav div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header nav div svg {
+  height: 70px;
+  padding: 20px;
+}
+header nav li {
+  list-style-type: none;
+  color: #2d2d2d;
+  display: inline-block;
+  padding: 40px;
+  font-size: 30px;
+  cursor: pointer;
+}
+header nav .mobile {
+  display: none;
+}
+
+@media screen and (max-width: 1000px) {
+  header nav {
+    height: 8vh;
+  }
+  header nav div svg {
+    height: 40px;
+    padding: 10px;
+  }
+  header nav li {
+    list-style-type: none;
+    color: #2d2d2d;
+    display: inline-block;
+    padding: 20px;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  header nav .mobile {
+    display: none;
+  }
+}
+@media screen and (max-width: 700px) {
+  header {
+    height: 100%;
+  }
+  header nav {
+    justify-content: space-between;
+  }
+  header nav div {
+    display: none;
+  }
+  header nav li {
+    display: none;
+  }
+  header nav .mobile {
+    display: flex;
+  }
+}
+header .content {
+  display: flex;
+  float: column;
+  color: rgb(255, 255, 255);
+  align-items: center;
+  justify-content: space-around;
+  padding: 40px;
+  margin-top: 40PX;
+}
+header .content h1 {
+  font-size: 60px;
+  margin-bottom: 20PX;
+}
+header .content p {
+  width: 600px;
+  font-size: 30px;
+}
+header .content button {
+  background-color: green;
+  font-size: 30px;
+  padding: 10px 40px;
+  margin-top: 20px;
+  color: aliceblue;
+}
+header .content img {
+  height: 400px;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+  header .content {
+    padding: 30px;
+    margin-top: 40PX;
+  }
+  header .content h1 {
+    font-size: 40px;
+    margin-bottom: 20PX;
+  }
+  header .content p {
+    width: 300px;
+    font-size: 20px;
+  }
+  header .content button {
+    background-color: green;
+    font-size: 20px;
+    padding: 10px 30px;
+    margin-top: 20px;
+    color: aliceblue;
+  }
+  header .content img {
+    height: 200px;
+    border-radius: 50%;
+  }
+}
+@media screen and (max-width: 700px) {
+  header .content {
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    padding: 40px;
+    margin-top: 40PX;
+  }
+  header .content h1 {
+    font-size: 30px;
+    margin-bottom: 20PX;
+  }
+  header .content p {
+    width: 200px;
+    font-size: 20px;
+  }
+  header .content button {
+    background-color: green;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin-top: 20px;
+    color: aliceblue;
+  }
+  header .content img {
+    height: 200px;
+    border-radius: 50%;
+  }
+}
+header footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 60PX;
+}
+header footer h6 {
+  color: white;
+  font-size: 30px;
+  text-transform: capitalize;
+}
+header footer div {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-items: space-between;
+  gap: 40px;
+}
+header footer div img {
+  height: 120px;
+  border: 2px solid wheat;
+  padding: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+  header footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 60PX;
+  }
+  header footer h6 {
+    color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+  }
+  header footer div {
+    padding: 20px;
+    gap: 20px;
+  }
+  header footer div img {
+    height: 40px;
+    border: 2px solid wheat;
+    padding: 10px;
+  }
+}
+@media screen and (max-width: 700px) {
+  header footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10PX;
+  }
+  header footer h6 {
+    color: white;
+    font-size: 15px;
+    text-transform: capitalize;
+  }
+  header footer div {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: space-between;
+    gap: 20px;
+  }
+  header footer div img {
+    height: 50px;
+    border: 2px solid wheat;
+    padding: 5px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */

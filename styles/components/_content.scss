@@ -1,0 +1,97 @@
+header{
+    .content{
+        display: flex;
+        float: column ;
+        color: rgb(255, 255, 255);
+        align-items: center;
+        justify-content: space-around;
+        padding: 40px;
+        margin-top: 40PX;
+       
+        h1{
+            font-size: 60px;
+            margin-bottom: 20PX;
+        }
+        p{
+            width: 600px;
+            font-size: 30px;
+
+        }
+        button{
+            background-color: green;
+            font-size: 30px;
+            padding: 10px 40px;
+            margin-top: 20px;
+            color: aliceblue;
+        }
+        img{
+            height: 400px;
+            border-radius:50%;
+            margin-top: 20px;
+        }
+    }
+}
+@media screen and (max-width: 1000px){
+    header{
+        .content{
+          
+            padding: 30px;
+            margin-top: 40PX;
+           
+            h1{
+                font-size: 40px;
+                margin-bottom: 20PX;
+            }
+            p{
+                width: 300px;
+                font-size: 20px;
+    
+            }
+            button{
+                background-color: green;
+                font-size: 20px;
+                padding: 10px 30px;
+                margin-top: 20px;
+                color: aliceblue;
+            }
+            img{
+                height: 200px;
+                border-radius:50%;
+            }
+        }
+    }
+
+}
+@media screen and (max-width: 700px){
+    header{
+        .content{
+            display: flex;
+            flex-direction: column;
+            color: rgb(255, 255, 255);
+            
+            padding: 40px;
+            margin-top: 40PX;
+           
+            h1{
+                font-size: 30px;
+                margin-bottom: 20PX;
+            }
+            p{
+                width: 200px;
+                font-size: 20px;
+    
+            }
+            button{
+                background-color: green;
+                font-size: 20px;
+                padding: 10px 20px;
+                margin-top: 20px;
+                color: aliceblue;
+            }
+            img{
+                height: 200px;
+                border-radius:50%;
+            }
+        }
+    } 
+}
