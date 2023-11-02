@@ -168,7 +168,7 @@ header footer {
 }
 header footer h6 {
   color: white;
-  font-size: 40px;
+  font-size: 20px;
   text-transform: capitalize;
 }
 header footer div {
@@ -176,10 +176,10 @@ header footer div {
   display: flex;
   align-items: center;
   justify-items: space-between;
-  gap: 80px;
+  gap: 40px;
 }
 header footer div img {
-  height: 70px;
+  height: 60px;
   border: 2px solid wheat;
   padding: 10px;
 }
