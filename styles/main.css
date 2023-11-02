@@ -6,7 +6,7 @@
 
 header {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   background-color: rgb(46, 46, 46);
   justify-content: center;
   align-items: center;
@@ -81,7 +81,7 @@ header nav .mobile {
 }
 header .content {
   display: flex;
-  float: column;
+  flex-direction: column;
   color: rgb(255, 255, 255);
   align-items: center;
   justify-content: space-around;
@@ -104,7 +104,7 @@ header .content button {
   color: aliceblue;
 }
 header .content img {
-  height: 400px;
+  height: 300px;
   border-radius: 50%;
   margin-top: 20px;
 }

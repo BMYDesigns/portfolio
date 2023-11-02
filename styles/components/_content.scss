@@ -1,7 +1,7 @@
 header{
     .content{
         display: flex;
-        float: column ;
+        flex-direction: column ;
         color: rgb(255, 255, 255);
         align-items: center;
         justify-content: space-around;
@@ -25,7 +25,7 @@ header{
             color: aliceblue;
         }
         img{
-            height: 400px;
+            height: 300px;
             border-radius:50%;
             margin-top: 20px;
         }
