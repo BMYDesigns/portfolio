@@ -6,7 +6,7 @@
 
 header {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background-color: rgb(46, 46, 46);
   justify-content: center;
   align-items: center;
@@ -81,7 +81,6 @@ header nav .mobile {
 }
 header .content {
   display: flex;
-  flex-direction: row;
   color: rgb(255, 255, 255);
   align-items: center;
   justify-content: space-around;
@@ -130,7 +129,7 @@ header .content img {
     color: aliceblue;
   }
   header .content img {
-    height: 200px;
+    height: 500px;
     border-radius: 50%;
   }
 }
@@ -180,7 +179,7 @@ header footer div {
   gap: 40px;
 }
 header footer div img {
-  height: 120px;
+  height: 100px;
   border: 2px solid wheat;
   padding: 20px;
 }
